@@ -1,0 +1,16 @@
+.banner h1{
+	font-weight: bold;
+	font: Arial;
+	font-size: 24px;
+}
+
+.banner{
+	background-image: url('images/pays-basque.jpg');
+}
+
+.banner h2{
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 18px;
+	font: Arial;
+}
