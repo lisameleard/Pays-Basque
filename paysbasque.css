@@ -1,16 +1,441 @@
-.banner h1{
-	font-weight: bold;
-	font: Arial;
-	font-size: 24px;
+body{
+	font-family: 'Amatic SC', cursive;
+	background-color: rgb(170,218,255,0.3);
+
 }
 
 .banner{
-	background-image: url('images/pays-basque.jpg');
+	background-image: url('images/banner.jpg');
+	background-size: 1300px;
+	background-position: center;
+	padding: 100px 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0;
+	bottom: 00px;
+	
+}
+
+.banner h1{
+	font-weight: 900px;
+	font-size: 50px;
+	color: #DC241F ;
+	text-align: center;
+	background-color: white;
+	margin: 20px 375px;
+	padding: 10px ;
+	border-radius: 20px;
+	
+
 }
 
 .banner h2{
 	font-weight: lighter;
 	font-style: italic;
-	font-size: 18px;
-	font: Arial;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	background-color: #009543;
+	opacity: 0.8;
+	padding: 2px;
+	
+
+}
+
+.titre{
+	margin: 550px 0 0 0;
+	padding: 50px 150px;
+	font-family: Sniglet;
+
+
+}
+
+.contenu  {
+	
+	
+	display: grid;
+	grid-template-columns: 900px 1fr; 
+	grid-template-rows: 60% 20% 20%;
+
+
+	
+
+}
+
+
+.randonnées{
+	grid-row: 1 / span 1;
+	grid-column: 1 / span 1;
+	display: grid;
+	grid-template-columns: 300px 1fr 1fr; 
+	grid-template-rows: 10% 30% 10% 10% 10% 10%;
+
+}
+
+.balade1{
+  	grid-row: 1 / span 1;
+	grid-column: 1 / span 1;
+	font-family: Amatic SC;
+	background-image: url(images/1.jpg);
+	background-size: 280px;
+	padding: 10px 10px 40px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px;
+	height: 50px;
+	background-position: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #DC241F;
+
+	
+}
+
+.balade2{
+	grid-row: 1 / span 1;
+	grid-column: 2 / span 1;
+	font-family: Amatic SC;
+	background-image: url(images/2.jpg);
+	background-size: 280px;
+	padding: 10px 10px 40px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px;
+	height: 50px;
+	background-position: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #009543 ;
+}
+
+.balade3{
+	grid-row: 1 / span 1;
+	grid-column: 3 / span 3;
+	font-family: Amatic SC;
+	background-image: url(images/3.jpg);
+	background-size: 280px;
+	padding: 10px 10px 40px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px;
+	height: 50px;
+	background-position: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+.balade4{
+	grid-row: 4 / span 4;
+	grid-column: 1 / span 1;
+	font-family: Amatic SC;
+	background-image: url(images/4.jpg);
+	background-size: 280px;
+	padding: 10px 10px 40px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px;
+	height: 50px;
+	background-position: bottom;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.balade5{
+	grid-row: 4 / span 4;
+	grid-column: 2 / span 1;
+	font-family: Amatic SC;
+	background-image: url(images/5.jpg);
+	background-size: 280px;
+	padding: 10px 10px 40px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px;
+	height: 50px;
+	background-position: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 50px;
+	color: #DC241F;
+}
+
+.balade6{
+	grid-row: 4 / span 4;
+	grid-column: 3 / span 3;
+	font-family: Amatic SC;
+	background-image: url(images/6.jpg);
+	background-size: 280px;
+	padding: 10px 10px 40px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px;
+	height: 50px;
+	background-position: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 50px;
+	color: #009543 ;
+}
+
+.description1{
+	padding: 80px 10px 0px 0px;
+	text-align: center;
+  	grid-row: 2 / span 2;
+	grid-column: 1 / span 1;
+	font-family: Sniglet;
+	
+	
+
+}
+.description2{
+	grid-row: 2 / span 2;
+	grid-column: 2 / span 1;
+	padding: 80px 10px;
+	text-align: center;
+	font-family: Sniglet;
+	
+}
+
+.description3{
+	padding: 80px 10px;
+	text-align: center;
+	grid-row: 2 / span 2;
+	grid-column: 3 / span 3;
+font-family: Sniglet;
+}
+
+.description4{
+	padding: 80px 10px;
+	text-align: center;
+  	grid-row: 5 / span 5;
+	grid-column: 1 / span 1;
+	font-family: Sniglet;
+	margin: 40px 0px 0px 0px;
+}
+
+.description5{
+	padding: 80px 10px;
+	text-align: center;
+	grid-row: 5 / span 5;
+	grid-column: 2 / span 1;
+font-family: Sniglet;
+margin: 40px 0px 0px 0px;
+}
+
+.description6{
+	padding: 80px 10px;
+	text-align: center;
+	grid-row: 5 / span 5;
+	grid-column: 3 / span 3;
+	font-family: Sniglet;
+	margin: 40px 0px;
+}
+
+.documentation1{
+	grid-row: 3 / span 3;
+	grid-column: 1 / span 1;
+	text-align: center;
+font-family: Sniglet;
+padding: 20px 10px 0px 0px;
+background-color: rgb(220, 36, 31, 0.8);
+margin: -50px 60px 260px;
+border-radius: 5px;
+text-decoration: none;
+color: white;
+
+
+}
+
+.documentation1:hover{
+background-color: rgb(220, 36, 31);
+color: white;
+text-decoration: none;
+
+}
+
+.documentation2{
+	grid-row: 3 / span 3;
+	grid-column: 2 / span 1;
+	text-align: center;
+font-family: Sniglet;
+padding: 20px 10px 0px 0px;
+background-color: rgb(0, 149, 67, 0.8);
+margin: -50px 60px 260px;
+border-radius: 5px;
+text-decoration: none;
+color: white;
+
+}
+.documentation2:hover{
+background-color: rgb(0, 149, 67);
+color: white;
+text-decoration: none;
+
+}
+
+
+.documentation3{
+	grid-row: 3 / span 3;
+	grid-column: 3 / span 3;
+	text-align: center;
+font-family: Sniglet;
+padding: 20px 10px 0px 0px;
+background-color: white;
+margin: -50px 60px 260px;
+border-radius: 5px;
+text-decoration: none;
+color: black;
+}
+
+.documentation3:hover{
+background-color: white;
+color: red;
+text-decoration: none;
+
+}
+
+.documentation4{
+  	grid-row: 6 / span 6;
+	grid-column: 1 / span 1;
+	text-align: center;
+font-family: Sniglet;
+background-color: red;
+padding: 20px 10px 20px 0px;
+background-color: white;
+margin: 140px 60px 200px;
+border-radius: 5px;
+text-decoration: none;
+color: black;
+
+
+}
+
+.documentation4:hover{
+background-color: white;
+color: red;
+text-decoration: none;
+
+}
+
+.documentation5{
+	grid-row: 6 / span 6;
+	grid-column: 2 / span 1;
+padding: 170px 10px;
+	text-align: center;
+font-family: Sniglet;
+padding: 20px 10px 20px 0px;
+background-color: rgb(220, 36, 31, 0.8);
+margin: 140px 60px 200px;
+border-radius: 5px;
+text-decoration: none;
+color: white;
+
+}
+
+.documentation5:hover{
+background-color: rgb(220, 36, 31);
+text-decoration: none;
+color:white;
+
+}
+
+.documentation6{
+	grid-row: 6 / span 6;
+	grid-column: 3 / span 3;
+	padding: 170px 10px;
+	text-align: center;
+	font-family: Sniglet;
+	padding: 20px 10px 20px 0px;
+background-color: rgb(0, 149, 67, 0.8);
+margin: 140px 60px 200px;
+border-radius: 5px;
+text-decoration: none;
+color: white;
+
+	
+}
+
+.documentation6:hover{
+background-color: rgb(0, 149, 67) ;
+text-decoration: none;
+color:white;
+
+}
+
+.map{
+	grid-row: 2 / span 3;
+	grid-column: 1 / span 1;
+	padding: 10px 10px 0px 10px;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	}
+
+.actualités{
+	grid-row: 1 / span 1;
+	grid-column: 2 / span 2;
+	padding: 10px 10px 40px 10px;
+	text-align: center;
+	background-color: white;
+	margin : 10px 10px 0px 20px;
+	border-radius: 10px;
+  
+}
+
+.image{
+
+padding: 100px 10px 20px 10px;
+margin: 0px 0px;
+font-family: Sniglet;
+
+}
+
+.lien{
+	font-family: Arial;
+	background-color: grey;
+}
+
+.lien:hover{
+	color: red;
+}
+
+.météo{
+	grid-row: 2 / span 2;
+	grid-column: 2 / span 2;
+	padding: 10px 10px 40px 20px;
+	text-align: center;
+	background-color: white;
+	margin : 10px 10px 0px 20px;
+	border-radius: 10px;
+  
+}
+
+.marais{
+	grid-row: 3 / span 3;
+	grid-column: 2 / span 2;
+	padding: 20px 10px 0px 20px;
+	text-align: center;
+	background-color: white;
+	margin : 170px 10px 180px 20px;
+	border-radius: 10px;
+ 
+}
+
+.mareeslien{
+	padding: 20px 10px 0px 0px;
+
+}
+
+
+.footer a{
+  color: black;
+  font-size: 32px;
+
+
+}
+.footer a:hover {
+  color: white;
 }
